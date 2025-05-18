@@ -12,7 +12,6 @@ export default function SignupPage() {
 
   const onSignup = async () => {
     try {
-      console.log('SignUp Clicked')
       setLoading(true)
       const resp = await axios.post(
         'http://localhost:3000//api/users/signup',
