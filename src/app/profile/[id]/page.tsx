@@ -1,6 +1,6 @@
 import { use } from 'react'
 export default function ProfilePage({ params }: any) {
-  const param: any = use(params)
+  const param: { id: String } = use(params)
 
   return (
     <div>

@@ -35,7 +35,6 @@ export default function LoginPage() {
   }, [user])
   return (
     <>
-      {' '}
       <Toaster position='top-right' toastOptions={{ duration: 3000 }} />
       <div className='flex flex-col items-center justify-center min-h-screen py-2 m-2'>
         <h1 className='text-3xl'>{loading ? 'Processing' : 'Login'}</h1>
